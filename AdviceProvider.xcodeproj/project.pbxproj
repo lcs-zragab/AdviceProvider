@@ -12,6 +12,7 @@
 		2968675029F169F1009A15A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2968674F29F169F1009A15A5 /* Assets.xcassets */; };
 		2968675329F169F1009A15A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2968675229F169F1009A15A5 /* Preview Assets.xcassets */; };
 		2968675A29F173AA009A15A5 /* Advice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2968675929F173AA009A15A5 /* Advice.swift */; };
+		2968676229F365A3009A15A5 /* SharedFunctionsAndConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2968676129F365A3009A15A5 /* SharedFunctionsAndConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2968674F29F169F1009A15A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2968675229F169F1009A15A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2968675929F173AA009A15A5 /* Advice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advice.swift; sourceTree = "<group>"; };
+		2968676129F365A3009A15A5 /* SharedFunctionsAndConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFunctionsAndConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				2968674B29F169F0009A15A5 /* AdviceProviderApp.swift */,
+				2968676029F36595009A15A5 /* Helpers */,
 				2968675C29F33D7B009A15A5 /* Model */,
-				2968675B29F17692009A15A5 /* Views */,
+				2968675B29F17692009A15A5 /* views */,
 				2968674F29F169F1009A15A5 /* Assets.xcassets */,
 				2968675129F169F1009A15A5 /* Preview Content */,
 			);
@@ -70,12 +73,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2968675B29F17692009A15A5 /* Views */ = {
+		2968675B29F17692009A15A5 /* views */ = {
 			isa = PBXGroup;
 			children = (
 				2968674D29F169F0009A15A5 /* ContentView.swift */,
 			);
-			path = Views;
+			path = views;
 			sourceTree = "<group>";
 		};
 		2968675C29F33D7B009A15A5 /* Model */ = {
@@ -84,6 +87,14 @@
 				2968675929F173AA009A15A5 /* Advice.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2968676029F36595009A15A5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2968676129F365A3009A15A5 /* SharedFunctionsAndConstants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2968676229F365A3009A15A5 /* SharedFunctionsAndConstants.swift in Sources */,
 				2968674E29F169F0009A15A5 /* ContentView.swift in Sources */,
 				2968674C29F169F0009A15A5 /* AdviceProviderApp.swift in Sources */,
 				2968675A29F173AA009A15A5 /* Advice.swift in Sources */,
